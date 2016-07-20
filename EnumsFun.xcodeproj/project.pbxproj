@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		72F5FFED8768F0EF18390C76 /* Pods_EnumsFunTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF1F1B012DCEFDBCC83910D /* Pods_EnumsFunTests.framework */; };
 		7D2BCC1A1D3FFCC800B4CD52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2BCC191D3FFCC800B4CD52 /* AppDelegate.swift */; };
 		7D2BCC1C1D3FFCC800B4CD52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2BCC1B1D3FFCC800B4CD52 /* ViewController.swift */; };
 		7D2BCC1F1D3FFCC800B4CD52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D2BCC1D1D3FFCC800B4CD52 /* Main.storyboard */; };
 		7D2BCC211D3FFCC800B4CD52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D2BCC201D3FFCC800B4CD52 /* Assets.xcassets */; };
 		7D2BCC241D3FFCC800B4CD52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D2BCC221D3FFCC800B4CD52 /* LaunchScreen.storyboard */; };
 		7D2BCC2F1D3FFCC800B4CD52 /* EnumsFunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2BCC2E1D3FFCC800B4CD52 /* EnumsFunTests.swift */; };
+		AF4DE9E5D7DE3B46051F6859 /* Pods_EnumsFun.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ED888DC860E982A4C9EDF47 /* Pods_EnumsFun.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18F4A2D5E827B507F8DA763F /* Pods-EnumsFunTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnumsFunTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EnumsFunTests/Pods-EnumsFunTests.release.xcconfig"; sourceTree = "<group>"; };
+		2EF1F1B012DCEFDBCC83910D /* Pods_EnumsFunTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EnumsFunTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64C0F605C95B468BAA501F6A /* Pods-EnumsFunTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnumsFunTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EnumsFunTests/Pods-EnumsFunTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7D2BCC161D3FFCC800B4CD52 /* EnumsFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnumsFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D2BCC191D3FFCC800B4CD52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D2BCC1B1D3FFCC800B4CD52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +41,9 @@
 		7D2BCC2A1D3FFCC800B4CD52 /* EnumsFunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnumsFunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D2BCC2E1D3FFCC800B4CD52 /* EnumsFunTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumsFunTests.swift; sourceTree = "<group>"; };
 		7D2BCC301D3FFCC800B4CD52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ED888DC860E982A4C9EDF47 /* Pods_EnumsFun.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EnumsFun.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9A97DA8C8D0504121618FBF /* Pods-EnumsFun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnumsFun.release.xcconfig"; path = "Pods/Target Support Files/Pods-EnumsFun/Pods-EnumsFun.release.xcconfig"; sourceTree = "<group>"; };
+		CEB24F73B33C31CBA23AD1BF /* Pods-EnumsFun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnumsFun.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EnumsFun/Pods-EnumsFun.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF4DE9E5D7DE3B46051F6859 /* Pods_EnumsFun.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +59,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72F5FFED8768F0EF18390C76 /* Pods_EnumsFunTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D0C1359576AF1538D6F3046 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9ED888DC860E982A4C9EDF47 /* Pods_EnumsFun.framework */,
+				2EF1F1B012DCEFDBCC83910D /* Pods_EnumsFunTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7D2BCC0D1D3FFCC800B4CD52 = {
 			isa = PBXGroup;
 			children = (
 				7D2BCC181D3FFCC800B4CD52 /* EnumsFun */,
 				7D2BCC2D1D3FFCC800B4CD52 /* EnumsFunTests */,
 				7D2BCC171D3FFCC800B4CD52 /* Products */,
+				8695B8CF79AF5EEEA03A62EE /* Pods */,
+				4D0C1359576AF1538D6F3046 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +117,17 @@
 			path = EnumsFunTests;
 			sourceTree = "<group>";
 		};
+		8695B8CF79AF5EEEA03A62EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CEB24F73B33C31CBA23AD1BF /* Pods-EnumsFun.debug.xcconfig */,
+				A9A97DA8C8D0504121618FBF /* Pods-EnumsFun.release.xcconfig */,
+				64C0F605C95B468BAA501F6A /* Pods-EnumsFunTests.debug.xcconfig */,
+				18F4A2D5E827B507F8DA763F /* Pods-EnumsFunTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7D2BCC331D3FFCC800B4CD52 /* Build configuration list for PBXNativeTarget "EnumsFun" */;
 			buildPhases = (
+				2D54D7045A395E0A47A3D2BE /* [CP] Check Pods Manifest.lock */,
 				7D2BCC121D3FFCC800B4CD52 /* Sources */,
 				7D2BCC131D3FFCC800B4CD52 /* Frameworks */,
 				7D2BCC141D3FFCC800B4CD52 /* Resources */,
+				341ED91AF5E69A31AB99D761 /* [CP] Embed Pods Frameworks */,
+				8DFE63888A518DB591297A34 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7D2BCC361D3FFCC800B4CD52 /* Build configuration list for PBXNativeTarget "EnumsFunTests" */;
 			buildPhases = (
+				3BA3B4B9947E9BC9439A703A /* [CP] Check Pods Manifest.lock */,
 				7D2BCC261D3FFCC800B4CD52 /* Sources */,
 				7D2BCC271D3FFCC800B4CD52 /* Frameworks */,
 				7D2BCC281D3FFCC800B4CD52 /* Resources */,
+				3BC5C9DBBEADB6EE742F3D0C /* [CP] Embed Pods Frameworks */,
+				B4DD489158DFC6DFA3C7A953 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -191,6 +229,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D54D7045A395E0A47A3D2BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		341ED91AF5E69A31AB99D761 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EnumsFun/Pods-EnumsFun-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BA3B4B9947E9BC9439A703A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3BC5C9DBBEADB6EE742F3D0C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EnumsFunTests/Pods-EnumsFunTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DFE63888A518DB591297A34 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EnumsFun/Pods-EnumsFun-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4DD489158DFC6DFA3C7A953 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EnumsFunTests/Pods-EnumsFunTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7D2BCC121D3FFCC800B4CD52 /* Sources */ = {
@@ -325,6 +456,7 @@
 		};
 		7D2BCC341D3FFCC800B4CD52 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEB24F73B33C31CBA23AD1BF /* Pods-EnumsFun.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = EnumsFun/Info.plist;
@@ -336,6 +468,7 @@
 		};
 		7D2BCC351D3FFCC800B4CD52 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9A97DA8C8D0504121618FBF /* Pods-EnumsFun.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = EnumsFun/Info.plist;
@@ -347,6 +480,7 @@
 		};
 		7D2BCC371D3FFCC800B4CD52 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64C0F605C95B468BAA501F6A /* Pods-EnumsFunTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = EnumsFunTests/Info.plist;
@@ -359,6 +493,7 @@
 		};
 		7D2BCC381D3FFCC800B4CD52 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18F4A2D5E827B507F8DA763F /* Pods-EnumsFunTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = EnumsFunTests/Info.plist;
@@ -388,6 +523,7 @@
 				7D2BCC351D3FFCC800B4CD52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7D2BCC361D3FFCC800B4CD52 /* Build configuration list for PBXNativeTarget "EnumsFunTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +532,7 @@
 				7D2BCC381D3FFCC800B4CD52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

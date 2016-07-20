@@ -1,0 +1,6 @@
+framework module Pods_EnumsFunTests {
+  umbrella header "Pods-EnumsFunTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
