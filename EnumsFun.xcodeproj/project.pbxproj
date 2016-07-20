@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D2BCC1A1D3FFCC800B4CD52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2BCC191D3FFCC800B4CD52 /* AppDelegate.swift */; };
+		7D2BCC1C1D3FFCC800B4CD52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2BCC1B1D3FFCC800B4CD52 /* ViewController.swift */; };
+		7D2BCC1F1D3FFCC800B4CD52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D2BCC1D1D3FFCC800B4CD52 /* Main.storyboard */; };
+		7D2BCC211D3FFCC800B4CD52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D2BCC201D3FFCC800B4CD52 /* Assets.xcassets */; };
+		7D2BCC241D3FFCC800B4CD52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D2BCC221D3FFCC800B4CD52 /* LaunchScreen.storyboard */; };
+		7D2BCC2F1D3FFCC800B4CD52 /* EnumsFunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2BCC2E1D3FFCC800B4CD52 /* EnumsFunTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D2BCC2B1D3FFCC800B4CD52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D2BCC0E1D3FFCC800B4CD52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D2BCC151D3FFCC800B4CD52;
+			remoteInfo = EnumsFun;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7D2BCC161D3FFCC800B4CD52 /* EnumsFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnumsFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D2BCC191D3FFCC800B4CD52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7D2BCC1B1D3FFCC800B4CD52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7D2BCC1E1D3FFCC800B4CD52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D2BCC201D3FFCC800B4CD52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D2BCC231D3FFCC800B4CD52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7D2BCC251D3FFCC800B4CD52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D2BCC2A1D3FFCC800B4CD52 /* EnumsFunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnumsFunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D2BCC2E1D3FFCC800B4CD52 /* EnumsFunTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumsFunTests.swift; sourceTree = "<group>"; };
+		7D2BCC301D3FFCC800B4CD52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D2BCC131D3FFCC800B4CD52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D2BCC271D3FFCC800B4CD52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D2BCC0D1D3FFCC800B4CD52 = {
+			isa = PBXGroup;
+			children = (
+				7D2BCC181D3FFCC800B4CD52 /* EnumsFun */,
+				7D2BCC2D1D3FFCC800B4CD52 /* EnumsFunTests */,
+				7D2BCC171D3FFCC800B4CD52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D2BCC171D3FFCC800B4CD52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D2BCC161D3FFCC800B4CD52 /* EnumsFun.app */,
+				7D2BCC2A1D3FFCC800B4CD52 /* EnumsFunTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D2BCC181D3FFCC800B4CD52 /* EnumsFun */ = {
+			isa = PBXGroup;
+			children = (
+				7D2BCC191D3FFCC800B4CD52 /* AppDelegate.swift */,
+				7D2BCC1B1D3FFCC800B4CD52 /* ViewController.swift */,
+				7D2BCC1D1D3FFCC800B4CD52 /* Main.storyboard */,
+				7D2BCC201D3FFCC800B4CD52 /* Assets.xcassets */,
+				7D2BCC221D3FFCC800B4CD52 /* LaunchScreen.storyboard */,
+				7D2BCC251D3FFCC800B4CD52 /* Info.plist */,
+			);
+			path = EnumsFun;
+			sourceTree = "<group>";
+		};
+		7D2BCC2D1D3FFCC800B4CD52 /* EnumsFunTests */ = {
+			isa = PBXGroup;
+			children = (
+				7D2BCC2E1D3FFCC800B4CD52 /* EnumsFunTests.swift */,
+				7D2BCC301D3FFCC800B4CD52 /* Info.plist */,
+			);
+			path = EnumsFunTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D2BCC151D3FFCC800B4CD52 /* EnumsFun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D2BCC331D3FFCC800B4CD52 /* Build configuration list for PBXNativeTarget "EnumsFun" */;
+			buildPhases = (
+				7D2BCC121D3FFCC800B4CD52 /* Sources */,
+				7D2BCC131D3FFCC800B4CD52 /* Frameworks */,
+				7D2BCC141D3FFCC800B4CD52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EnumsFun;
+			productName = EnumsFun;
+			productReference = 7D2BCC161D3FFCC800B4CD52 /* EnumsFun.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D2BCC291D3FFCC800B4CD52 /* EnumsFunTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D2BCC361D3FFCC800B4CD52 /* Build configuration list for PBXNativeTarget "EnumsFunTests" */;
+			buildPhases = (
+				7D2BCC261D3FFCC800B4CD52 /* Sources */,
+				7D2BCC271D3FFCC800B4CD52 /* Frameworks */,
+				7D2BCC281D3FFCC800B4CD52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D2BCC2C1D3FFCC800B4CD52 /* PBXTargetDependency */,
+			);
+			name = EnumsFunTests;
+			productName = EnumsFunTests;
+			productReference = 7D2BCC2A1D3FFCC800B4CD52 /* EnumsFunTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D2BCC0E1D3FFCC800B4CD52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Gamesmith, LLC";
+				TargetAttributes = {
+					7D2BCC151D3FFCC800B4CD52 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					7D2BCC291D3FFCC800B4CD52 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 7D2BCC151D3FFCC800B4CD52;
+					};
+				};
+			};
+			buildConfigurationList = 7D2BCC111D3FFCC800B4CD52 /* Build configuration list for PBXProject "EnumsFun" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D2BCC0D1D3FFCC800B4CD52;
+			productRefGroup = 7D2BCC171D3FFCC800B4CD52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D2BCC151D3FFCC800B4CD52 /* EnumsFun */,
+				7D2BCC291D3FFCC800B4CD52 /* EnumsFunTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D2BCC141D3FFCC800B4CD52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D2BCC241D3FFCC800B4CD52 /* LaunchScreen.storyboard in Resources */,
+				7D2BCC211D3FFCC800B4CD52 /* Assets.xcassets in Resources */,
+				7D2BCC1F1D3FFCC800B4CD52 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D2BCC281D3FFCC800B4CD52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D2BCC121D3FFCC800B4CD52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D2BCC1C1D3FFCC800B4CD52 /* ViewController.swift in Sources */,
+				7D2BCC1A1D3FFCC800B4CD52 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D2BCC261D3FFCC800B4CD52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D2BCC2F1D3FFCC800B4CD52 /* EnumsFunTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D2BCC2C1D3FFCC800B4CD52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D2BCC151D3FFCC800B4CD52 /* EnumsFun */;
+			targetProxy = 7D2BCC2B1D3FFCC800B4CD52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7D2BCC1D1D3FFCC800B4CD52 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D2BCC1E1D3FFCC800B4CD52 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7D2BCC221D3FFCC800B4CD52 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D2BCC231D3FFCC800B4CD52 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D2BCC311D3FFCC800B4CD52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7D2BCC321D3FFCC800B4CD52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D2BCC341D3FFCC800B4CD52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EnumsFun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Gamesmith.Swift.EnumsFun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7D2BCC351D3FFCC800B4CD52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EnumsFun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Gamesmith.Swift.EnumsFun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7D2BCC371D3FFCC800B4CD52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EnumsFunTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Gamesmith.Swift.EnumsFunTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnumsFun.app/EnumsFun";
+			};
+			name = Debug;
+		};
+		7D2BCC381D3FFCC800B4CD52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EnumsFunTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Gamesmith.Swift.EnumsFunTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnumsFun.app/EnumsFun";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D2BCC111D3FFCC800B4CD52 /* Build configuration list for PBXProject "EnumsFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D2BCC311D3FFCC800B4CD52 /* Debug */,
+				7D2BCC321D3FFCC800B4CD52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D2BCC331D3FFCC800B4CD52 /* Build configuration list for PBXNativeTarget "EnumsFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D2BCC341D3FFCC800B4CD52 /* Debug */,
+				7D2BCC351D3FFCC800B4CD52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7D2BCC361D3FFCC800B4CD52 /* Build configuration list for PBXNativeTarget "EnumsFunTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D2BCC371D3FFCC800B4CD52 /* Debug */,
+				7D2BCC381D3FFCC800B4CD52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D2BCC0E1D3FFCC800B4CD52 /* Project object */;
+}
