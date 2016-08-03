@@ -9,4 +9,12 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var opponentCardLabel: UILabel!
+    @IBOutlet weak var playerCardLabel: UILabel!
+    @IBOutlet weak var winnerLabel: UILabel!
+    @IBOutlet weak var playerScoreLabel: UILabel!
+    @IBOutlet weak var opponentScoreLabel: UILabel!
+
+    @IBAction func flipCard(sender: UIButton) {
+    }
 }
