@@ -26,8 +26,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         gameEngine = GameEngine(player1: "Opponent", player2: "You")
-        playerScoreLabel.text = "You: \(you.hand.size)"
-        opponentScoreLabel.text = "Opponent: \(opponent.hand.size)"
+        updateScores()
     }
 
     func updateGameOver() {
@@ -36,6 +35,29 @@ class ViewController: UIViewController {
         }
     }
 
+    func updateScores() {
+        playerScoreLabel.text = "You: \(you.hand.size)"
+        opponentScoreLabel.text = "Opponent: \(opponent.hand.size)"
+    }
+
     @IBAction func flipCard(sender: UIButton) {
+        let (winner, opponentCard, youCard) = gameEngine.playOneTurn()
+
+        if winner.name == "You" {
+            winnerLabel.text = "You win!"
+        } else {
+            winnerLabel.text = "Opponent wins!"
+        }
+
+        if let youCard = youCard {
+            playerCardLabel.text = youCard.description
+        }
+
+        if let opponentCard = opponentCard {
+            opponentCardLabel.text = opponentCard.description
+        }
+
+        updateScores()
+        updateGameOver()
     }
 }

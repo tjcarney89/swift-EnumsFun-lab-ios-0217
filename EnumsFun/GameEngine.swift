@@ -23,6 +23,29 @@ class GameEngine {
         self.player2 = Player(name: player2, hand: hand2)
     }
 
+    func playOneTurn() -> (Player, Card?, Card?) {
+        guard player1.hasCards() else { return (player2, nil, nil) }
+        guard player2.hasCards() else { return (player1, nil, nil) }
+
+        let card1 = player1.flip()!
+        let card2 = player2.flip()!
+
+        if card1.rank.rawValue > card2.rank.rawValue {
+            awardCards(player1, cards: [card1, card2])
+            return (player1, card1, card2)
+        } else {
+            // TODO: Resolve ties
+            awardCards(player2, cards: [card1, card2])
+            return (player2, card1, card2)
+        }
+    }
+
+    func awardCards(player: Player, cards: [Card]) {
+        for card in cards {
+            player.giveCard(card)
+        }
+    }
+
     func gameOver() -> Bool {
         return !player1.hasCards() || !player2.hasCards()
     }
