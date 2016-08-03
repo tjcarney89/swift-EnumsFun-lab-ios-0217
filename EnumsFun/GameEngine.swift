@@ -22,4 +22,8 @@ class GameEngine {
         self.player1 = Player(name: player1, hand: hand1)
         self.player2 = Player(name: player2, hand: hand2)
     }
+
+    func gameOver() -> Bool {
+        return !player1.hasCards() || !player2.hasCards()
+    }
 }

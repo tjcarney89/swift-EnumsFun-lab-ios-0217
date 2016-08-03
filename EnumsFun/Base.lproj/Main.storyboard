@@ -74,6 +74,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="flipCardButton" destination="rPJ-cF-Xry" id="Ezr-cu-lAE"/>
                         <outlet property="opponentCardLabel" destination="4oA-d7-VGq" id="pFo-nH-R8n"/>
                         <outlet property="opponentScoreLabel" destination="vT3-cO-gV3" id="L8P-8L-AKF"/>
                         <outlet property="playerCardLabel" destination="pTr-eU-2UB" id="YsY-gL-vEh"/>

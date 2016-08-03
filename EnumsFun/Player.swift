@@ -16,4 +16,8 @@ class Player {
         self.name = name
         self.hand = hand
     }
+
+    func hasCards() -> Bool {
+        return hand.size > 0
+    }
 }

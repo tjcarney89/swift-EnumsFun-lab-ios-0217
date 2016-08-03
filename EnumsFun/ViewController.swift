@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var winnerLabel: UILabel!
     @IBOutlet weak var playerScoreLabel: UILabel!
     @IBOutlet weak var opponentScoreLabel: UILabel!
+    @IBOutlet weak var flipCardButton: UIButton!
 
     var gameEngine: GameEngine!
     var you: Player {
@@ -27,6 +28,12 @@ class ViewController: UIViewController {
         gameEngine = GameEngine(player1: "Opponent", player2: "You")
         playerScoreLabel.text = "You: \(you.hand.size)"
         opponentScoreLabel.text = "Opponent: \(opponent.hand.size)"
+    }
+
+    func updateGameOver() {
+        if gameEngine.gameOver() {
+            flipCardButton.enabled = false
+        }
     }
 
     @IBAction func flipCard(sender: UIButton) {
