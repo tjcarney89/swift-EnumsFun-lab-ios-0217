@@ -14,7 +14,7 @@ class Deck {
     init() {
         cards = []
         for suit in ["♠️", "♣️", "♥️", "♦️"] {
-            for rank in 1...13 {
+            for rank in 2...14 {
                 let suit = Suit(rawValue: suit)!
                 let rank = Rank(rawValue: rank)!
                 let card = Card(rank: rank, suit: suit)

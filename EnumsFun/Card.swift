@@ -13,14 +13,29 @@ enum Suit: String {
 }
 
 enum Rank: Int {
-    case One = 1, Two, Three, Four, Five, Six, Seven, Eight, Nine, Ten, Jack, King, Queen, Ace
+    case Two = 2, Three, Four, Five, Six, Seven, Eight, Nine, Ten, Jack, Queen, King, Ace
+
+    var stringValue: String {
+        switch self {
+        case .Ace:
+            return "A"
+        case .King:
+            return "K"
+        case .Queen:
+            return "Q"
+        case .Jack:
+            return "J"
+        default:
+            return "\(rawValue)"
+        }
+    }
 }
 
 class Card {
     let suit: Suit
     let rank: Rank
     var description: String {
-        return "\(rank.rawValue)\(suit.rawValue)"
+        return "\(rank.stringValue)\(suit.rawValue)"
     }
 
     init(rank: Rank, suit: Suit) {
