@@ -21,6 +21,11 @@
 		B7A3C0D81D519EA400851E3C /* Hand.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A3C0D71D519EA400851E3C /* Hand.swift */; };
 		B7A3C0DA1D519ED000851E3C /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A3C0D91D519ED000851E3C /* Player.swift */; };
 		B7A3C0DC1D519F2E00851E3C /* GameEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A3C0DB1D519F2E00851E3C /* GameEngine.swift */; };
+		B7A3C0DE1D51A9FC00851E3C /* CardSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A3C0DD1D51A9FC00851E3C /* CardSpec.swift */; };
+		B7A3C0E01D51AA7B00851E3C /* DeckSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A3C0DF1D51AA7B00851E3C /* DeckSpec.swift */; };
+		B7A3C0E21D51AB9600851E3C /* HandSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A3C0E11D51AB9600851E3C /* HandSpec.swift */; };
+		B7A3C0E41D51ADF600851E3C /* PlayerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A3C0E31D51ADF600851E3C /* PlayerSpec.swift */; };
+		B7A3C0E61D51AFBF00851E3C /* GameEngineSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A3C0E51D51AFBF00851E3C /* GameEngineSpec.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +60,11 @@
 		B7A3C0D71D519EA400851E3C /* Hand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hand.swift; sourceTree = "<group>"; };
 		B7A3C0D91D519ED000851E3C /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		B7A3C0DB1D519F2E00851E3C /* GameEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameEngine.swift; sourceTree = "<group>"; };
+		B7A3C0DD1D51A9FC00851E3C /* CardSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardSpec.swift; sourceTree = "<group>"; };
+		B7A3C0DF1D51AA7B00851E3C /* DeckSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeckSpec.swift; sourceTree = "<group>"; };
+		B7A3C0E11D51AB9600851E3C /* HandSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandSpec.swift; sourceTree = "<group>"; };
+		B7A3C0E31D51ADF600851E3C /* PlayerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerSpec.swift; sourceTree = "<group>"; };
+		B7A3C0E51D51AFBF00851E3C /* GameEngineSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameEngineSpec.swift; sourceTree = "<group>"; };
 		CEB24F73B33C31CBA23AD1BF /* Pods-EnumsFun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnumsFun.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EnumsFun/Pods-EnumsFun.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,6 +140,11 @@
 			isa = PBXGroup;
 			children = (
 				B7A3C0D31D518F3800851E3C /* ArraySpec.swift */,
+				B7A3C0DD1D51A9FC00851E3C /* CardSpec.swift */,
+				B7A3C0DF1D51AA7B00851E3C /* DeckSpec.swift */,
+				B7A3C0E51D51AFBF00851E3C /* GameEngineSpec.swift */,
+				B7A3C0E11D51AB9600851E3C /* HandSpec.swift */,
+				B7A3C0E31D51ADF600851E3C /* PlayerSpec.swift */,
 				7D2BCC301D3FFCC800B4CD52 /* Info.plist */,
 			);
 			path = EnumsFunTests;
@@ -361,7 +376,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7A3C0E01D51AA7B00851E3C /* DeckSpec.swift in Sources */,
+				B7A3C0E41D51ADF600851E3C /* PlayerSpec.swift in Sources */,
+				B7A3C0E61D51AFBF00851E3C /* GameEngineSpec.swift in Sources */,
+				B7A3C0DE1D51A9FC00851E3C /* CardSpec.swift in Sources */,
 				B7A3C0D41D518F3800851E3C /* ArraySpec.swift in Sources */,
+				B7A3C0E21D51AB9600851E3C /* HandSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

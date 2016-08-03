@@ -10,7 +10,7 @@ import Foundation
 
 class Player {
     let name: String
-    let hand: Hand
+    var hand: Hand
 
     init(name: String, hand: Hand) {
         self.name = name
