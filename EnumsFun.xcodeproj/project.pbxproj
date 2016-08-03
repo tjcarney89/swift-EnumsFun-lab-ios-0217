@@ -15,6 +15,7 @@
 		7D2BCC241D3FFCC800B4CD52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D2BCC221D3FFCC800B4CD52 /* LaunchScreen.storyboard */; };
 		7D2BCC2F1D3FFCC800B4CD52 /* EnumsFunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2BCC2E1D3FFCC800B4CD52 /* EnumsFunTests.swift */; };
 		AF4DE9E5D7DE3B46051F6859 /* Pods_EnumsFun.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ED888DC860E982A4C9EDF47 /* Pods_EnumsFun.framework */; };
+		B7A3C0D01D518C1B00851E3C /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A3C0CF1D518C1B00851E3C /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		7D2BCC301D3FFCC800B4CD52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9ED888DC860E982A4C9EDF47 /* Pods_EnumsFun.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EnumsFun.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9A97DA8C8D0504121618FBF /* Pods-EnumsFun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnumsFun.release.xcconfig"; path = "Pods/Target Support Files/Pods-EnumsFun/Pods-EnumsFun.release.xcconfig"; sourceTree = "<group>"; };
+		B7A3C0CF1D518C1B00851E3C /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		CEB24F73B33C31CBA23AD1BF /* Pods-EnumsFun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnumsFun.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EnumsFun/Pods-EnumsFun.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,6 +102,7 @@
 			children = (
 				7D2BCC191D3FFCC800B4CD52 /* AppDelegate.swift */,
 				7D2BCC1B1D3FFCC800B4CD52 /* ViewController.swift */,
+				B7A3C0CF1D518C1B00851E3C /* Card.swift */,
 				7D2BCC1D1D3FFCC800B4CD52 /* Main.storyboard */,
 				7D2BCC201D3FFCC800B4CD52 /* Assets.xcassets */,
 				7D2BCC221D3FFCC800B4CD52 /* LaunchScreen.storyboard */,
@@ -329,6 +332,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D2BCC1C1D3FFCC800B4CD52 /* ViewController.swift in Sources */,
+				B7A3C0D01D518C1B00851E3C /* Card.swift in Sources */,
 				7D2BCC1A1D3FFCC800B4CD52 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
