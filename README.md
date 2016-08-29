@@ -1,12 +1,12 @@
-# Enums: War!
+# Enums: War Lab 
 
 ![NameOfPerson](http://i.imgur.com/dJ83HcZ.png?1)  
 
 > Our differences are only skin deep, but our sames go down to the bone. -[Marge Simpson](https://en.wikipedia.org/wiki/Marge_Simpson)
 
-## Learning Objectives
+## Overview
 
-* Complete this lab
+In this lab, you'll implement a simple game of War as an iPhone app. 
 
 ## War!
 
