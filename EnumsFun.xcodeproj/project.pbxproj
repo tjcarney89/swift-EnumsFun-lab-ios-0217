@@ -1,1321 +1,600 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>09DAB701106545C21CBEA285</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>CD6BEB565F2453886FAE0A25</string>
-				<string>7B42E220F296C6223C32FDF8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>10775D4146C7B0BE5CED1AFA</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>[CP] Embed Pods Frameworks</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-EnumsFun/Pods-EnumsFun-frameworks.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>149EA297DE44E7D7B5DC7CA5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-EnumsFunTests.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-EnumsFunTests/Pods-EnumsFunTests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>21F9F56CAA1502CB54215923</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-EnumsFunTests.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-EnumsFunTests/Pods-EnumsFunTests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2EC0478324AAB4E015910908</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>[CP] Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>6FA73C9C9B22092BE3B2D01A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CD6BEB565F2453886FAE0A25</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7B42E220F296C6223C32FDF8</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods_EnumsFunTests.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>7D2BCC0D1D3FFCC800B4CD52</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7D2BCC181D3FFCC800B4CD52</string>
-				<string>7D2BCC2D1D3FFCC800B4CD52</string>
-				<string>7D2BCC171D3FFCC800B4CD52</string>
-				<string>A83FF1A49711A6A165DA4FB7</string>
-				<string>09DAB701106545C21CBEA285</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7D2BCC0E1D3FFCC800B4CD52</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastSwiftUpdateCheck</key>
-				<string>0730</string>
-				<key>LastUpgradeCheck</key>
-				<string>0730</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>Gamesmith, LLC</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>7D2BCC151D3FFCC800B4CD52</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.3.1</string>
-						<key>LastSwiftMigration</key>
-						<string>0800</string>
-					</dict>
-					<key>7D2BCC291D3FFCC800B4CD52</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.3.1</string>
-						<key>LastSwiftMigration</key>
-						<string>0800</string>
-						<key>TestTargetID</key>
-						<string>7D2BCC151D3FFCC800B4CD52</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>7D2BCC111D3FFCC800B4CD52</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>7D2BCC0D1D3FFCC800B4CD52</string>
-			<key>productRefGroup</key>
-			<string>7D2BCC171D3FFCC800B4CD52</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>7D2BCC151D3FFCC800B4CD52</string>
-				<string>7D2BCC291D3FFCC800B4CD52</string>
-			</array>
-		</dict>
-		<key>7D2BCC111D3FFCC800B4CD52</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>7D2BCC311D3FFCC800B4CD52</string>
-				<string>7D2BCC321D3FFCC800B4CD52</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>7D2BCC121D3FFCC800B4CD52</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>7D2BCC1C1D3FFCC800B4CD52</string>
-				<string>B7A3C0D21D518E4700851E3C</string>
-				<string>B7A3C0D81D519EA400851E3C</string>
-				<string>B7A3C0DC1D519F2E00851E3C</string>
-				<string>B7A3C0D61D5190F800851E3C</string>
-				<string>B7A3C0DA1D519ED000851E3C</string>
-				<string>B7A3C0D01D518C1B00851E3C</string>
-				<string>7D2BCC1A1D3FFCC800B4CD52</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7D2BCC131D3FFCC800B4CD52</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>6FA73C9C9B22092BE3B2D01A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7D2BCC141D3FFCC800B4CD52</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>7D2BCC241D3FFCC800B4CD52</string>
-				<string>7D2BCC211D3FFCC800B4CD52</string>
-				<string>7D2BCC1F1D3FFCC800B4CD52</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7D2BCC151D3FFCC800B4CD52</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>7D2BCC331D3FFCC800B4CD52</string>
-			<key>buildPhases</key>
-			<array>
-				<string>F0C5A13D972B0604602A0148</string>
-				<string>7D2BCC121D3FFCC800B4CD52</string>
-				<string>7D2BCC131D3FFCC800B4CD52</string>
-				<string>7D2BCC141D3FFCC800B4CD52</string>
-				<string>10775D4146C7B0BE5CED1AFA</string>
-				<string>E84E4C5CF9F08A794E817C26</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>EnumsFun</string>
-			<key>productName</key>
-			<string>EnumsFun</string>
-			<key>productReference</key>
-			<string>7D2BCC161D3FFCC800B4CD52</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>7D2BCC161D3FFCC800B4CD52</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>EnumsFun.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>7D2BCC171D3FFCC800B4CD52</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7D2BCC161D3FFCC800B4CD52</string>
-				<string>7D2BCC2A1D3FFCC800B4CD52</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7D2BCC181D3FFCC800B4CD52</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7D2BCC191D3FFCC800B4CD52</string>
-				<string>7D2BCC1B1D3FFCC800B4CD52</string>
-				<string>B7A3C0CF1D518C1B00851E3C</string>
-				<string>B7A3C0D51D5190F800851E3C</string>
-				<string>B7A3C0DB1D519F2E00851E3C</string>
-				<string>B7A3C0D71D519EA400851E3C</string>
-				<string>B7A3C0D91D519ED000851E3C</string>
-				<string>B7A3C0D11D518E4700851E3C</string>
-				<string>7D2BCC1D1D3FFCC800B4CD52</string>
-				<string>7D2BCC201D3FFCC800B4CD52</string>
-				<string>7D2BCC221D3FFCC800B4CD52</string>
-				<string>7D2BCC251D3FFCC800B4CD52</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>EnumsFun</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7D2BCC191D3FFCC800B4CD52</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>AppDelegate.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7D2BCC1A1D3FFCC800B4CD52</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7D2BCC191D3FFCC800B4CD52</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7D2BCC1B1D3FFCC800B4CD52</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>ViewController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7D2BCC1C1D3FFCC800B4CD52</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7D2BCC1B1D3FFCC800B4CD52</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7D2BCC1D1D3FFCC800B4CD52</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7D2BCC1E1D3FFCC800B4CD52</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7D2BCC1E1D3FFCC800B4CD52</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7D2BCC1F1D3FFCC800B4CD52</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7D2BCC1D1D3FFCC800B4CD52</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7D2BCC201D3FFCC800B4CD52</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Assets.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7D2BCC211D3FFCC800B4CD52</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7D2BCC201D3FFCC800B4CD52</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7D2BCC221D3FFCC800B4CD52</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7D2BCC231D3FFCC800B4CD52</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7D2BCC231D3FFCC800B4CD52</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7D2BCC241D3FFCC800B4CD52</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7D2BCC221D3FFCC800B4CD52</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7D2BCC251D3FFCC800B4CD52</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7D2BCC261D3FFCC800B4CD52</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>B7A3C0E01D51AA7B00851E3C</string>
-				<string>B7A3C0E41D51ADF600851E3C</string>
-				<string>B7A3C0E61D51AFBF00851E3C</string>
-				<string>B7A3C0DE1D51A9FC00851E3C</string>
-				<string>B7A3C0D41D518F3800851E3C</string>
-				<string>B7A3C0E21D51AB9600851E3C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7D2BCC271D3FFCC800B4CD52</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>81262DDF262A9C027926E44A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7D2BCC281D3FFCC800B4CD52</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7D2BCC291D3FFCC800B4CD52</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>7D2BCC361D3FFCC800B4CD52</string>
-			<key>buildPhases</key>
-			<array>
-				<string>2EC0478324AAB4E015910908</string>
-				<string>7D2BCC261D3FFCC800B4CD52</string>
-				<string>7D2BCC271D3FFCC800B4CD52</string>
-				<string>7D2BCC281D3FFCC800B4CD52</string>
-				<string>87E8517C966F3A170FC45988</string>
-				<string>F11016230BBF7DDCB1E505CD</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>7D2BCC2C1D3FFCC800B4CD52</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>EnumsFunTests</string>
-			<key>productName</key>
-			<string>EnumsFunTests</string>
-			<key>productReference</key>
-			<string>7D2BCC2A1D3FFCC800B4CD52</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>7D2BCC2A1D3FFCC800B4CD52</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>EnumsFunTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>7D2BCC2B1D3FFCC800B4CD52</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>7D2BCC0E1D3FFCC800B4CD52</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>7D2BCC151D3FFCC800B4CD52</string>
-			<key>remoteInfo</key>
-			<string>EnumsFun</string>
-		</dict>
-		<key>7D2BCC2C1D3FFCC800B4CD52</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>7D2BCC151D3FFCC800B4CD52</string>
-			<key>targetProxy</key>
-			<string>7D2BCC2B1D3FFCC800B4CD52</string>
-		</dict>
-		<key>7D2BCC2D1D3FFCC800B4CD52</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B7A3C0D31D518F3800851E3C</string>
-				<string>B7A3C0DD1D51A9FC00851E3C</string>
-				<string>B7A3C0DF1D51AA7B00851E3C</string>
-				<string>B7A3C0E51D51AFBF00851E3C</string>
-				<string>B7A3C0E11D51AB9600851E3C</string>
-				<string>B7A3C0E31D51ADF600851E3C</string>
-				<string>7D2BCC301D3FFCC800B4CD52</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>EnumsFunTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7D2BCC301D3FFCC800B4CD52</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7D2BCC311D3FFCC800B4CD52</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>ENABLE_TESTABILITY</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.3</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>7D2BCC321D3FFCC800B4CD52</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.3</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>7D2BCC331D3FFCC800B4CD52</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>7D2BCC341D3FFCC800B4CD52</string>
-				<string>7D2BCC351D3FFCC800B4CD52</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>7D2BCC341D3FFCC800B4CD52</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>AB4A3C705BC0293860E275C6</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>INFOPLIST_FILE</key>
-				<string>EnumsFun/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.Gamesmith.Swift.EnumsFun</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_VERSION</key>
-				<string>3.0</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>7D2BCC351D3FFCC800B4CD52</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>D21F1A0FB6121FAA72AF640F</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>INFOPLIST_FILE</key>
-				<string>EnumsFun/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.Gamesmith.Swift.EnumsFun</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_VERSION</key>
-				<string>3.0</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>7D2BCC361D3FFCC800B4CD52</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>7D2BCC371D3FFCC800B4CD52</string>
-				<string>7D2BCC381D3FFCC800B4CD52</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>7D2BCC371D3FFCC800B4CD52</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>21F9F56CAA1502CB54215923</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>EnumsFunTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.Gamesmith.Swift.EnumsFunTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>SWIFT_VERSION</key>
-				<string>3.0</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/EnumsFun.app/EnumsFun</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>7D2BCC381D3FFCC800B4CD52</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>149EA297DE44E7D7B5DC7CA5</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>EnumsFunTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.Gamesmith.Swift.EnumsFunTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_VERSION</key>
-				<string>3.0</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/EnumsFun.app/EnumsFun</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>81262DDF262A9C027926E44A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7B42E220F296C6223C32FDF8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>87E8517C966F3A170FC45988</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>[CP] Embed Pods Frameworks</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-EnumsFunTests/Pods-EnumsFunTests-frameworks.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>A83FF1A49711A6A165DA4FB7</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>AB4A3C705BC0293860E275C6</string>
-				<string>D21F1A0FB6121FAA72AF640F</string>
-				<string>21F9F56CAA1502CB54215923</string>
-				<string>149EA297DE44E7D7B5DC7CA5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AB4A3C705BC0293860E275C6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-EnumsFun.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-EnumsFun/Pods-EnumsFun.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B7A3C0CF1D518C1B00851E3C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>Card.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B7A3C0D01D518C1B00851E3C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B7A3C0CF1D518C1B00851E3C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B7A3C0D11D518E4700851E3C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>Array.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B7A3C0D21D518E4700851E3C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B7A3C0D11D518E4700851E3C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B7A3C0D31D518F3800851E3C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>ArraySpec.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B7A3C0D41D518F3800851E3C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B7A3C0D31D518F3800851E3C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B7A3C0D51D5190F800851E3C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>Deck.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B7A3C0D61D5190F800851E3C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B7A3C0D51D5190F800851E3C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B7A3C0D71D519EA400851E3C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>Hand.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B7A3C0D81D519EA400851E3C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B7A3C0D71D519EA400851E3C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B7A3C0D91D519ED000851E3C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>Player.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B7A3C0DA1D519ED000851E3C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B7A3C0D91D519ED000851E3C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B7A3C0DB1D519F2E00851E3C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>GameEngine.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B7A3C0DC1D519F2E00851E3C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B7A3C0DB1D519F2E00851E3C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B7A3C0DD1D51A9FC00851E3C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>CardSpec.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B7A3C0DE1D51A9FC00851E3C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B7A3C0DD1D51A9FC00851E3C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B7A3C0DF1D51AA7B00851E3C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>DeckSpec.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B7A3C0E01D51AA7B00851E3C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B7A3C0DF1D51AA7B00851E3C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B7A3C0E11D51AB9600851E3C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>HandSpec.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B7A3C0E21D51AB9600851E3C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B7A3C0E11D51AB9600851E3C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B7A3C0E31D51ADF600851E3C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>PlayerSpec.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B7A3C0E41D51ADF600851E3C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B7A3C0E31D51ADF600851E3C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B7A3C0E51D51AFBF00851E3C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>GameEngineSpec.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B7A3C0E61D51AFBF00851E3C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B7A3C0E51D51AFBF00851E3C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>CD6BEB565F2453886FAE0A25</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods_EnumsFun.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>D21F1A0FB6121FAA72AF640F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-EnumsFun.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-EnumsFun/Pods-EnumsFun.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E84E4C5CF9F08A794E817C26</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>[CP] Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-EnumsFun/Pods-EnumsFun-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>F0C5A13D972B0604602A0148</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>[CP] Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>F11016230BBF7DDCB1E505CD</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>[CP] Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-EnumsFunTests/Pods-EnumsFunTests-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>7D2BCC0E1D3FFCC800B4CD52</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6FA73C9C9B22092BE3B2D01A /* Pods_EnumsFun.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6BEB565F2453886FAE0A25 /* Pods_EnumsFun.framework */; };
+		7D2BCC1A1D3FFCC800B4CD52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2BCC191D3FFCC800B4CD52 /* AppDelegate.swift */; };
+		7D2BCC1C1D3FFCC800B4CD52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2BCC1B1D3FFCC800B4CD52 /* ViewController.swift */; };
+		7D2BCC1F1D3FFCC800B4CD52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D2BCC1D1D3FFCC800B4CD52 /* Main.storyboard */; };
+		7D2BCC211D3FFCC800B4CD52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D2BCC201D3FFCC800B4CD52 /* Assets.xcassets */; };
+		7D2BCC241D3FFCC800B4CD52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D2BCC221D3FFCC800B4CD52 /* LaunchScreen.storyboard */; };
+		81262DDF262A9C027926E44A /* Pods_EnumsFunTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B42E220F296C6223C32FDF8 /* Pods_EnumsFunTests.framework */; };
+		B7A3C0D01D518C1B00851E3C /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A3C0CF1D518C1B00851E3C /* Card.swift */; };
+		B7A3C0D21D518E4700851E3C /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A3C0D11D518E4700851E3C /* Array.swift */; };
+		B7A3C0D41D518F3800851E3C /* ArraySpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A3C0D31D518F3800851E3C /* ArraySpec.swift */; };
+		B7A3C0D61D5190F800851E3C /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A3C0D51D5190F800851E3C /* Deck.swift */; };
+		B7A3C0D81D519EA400851E3C /* Hand.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A3C0D71D519EA400851E3C /* Hand.swift */; };
+		B7A3C0DA1D519ED000851E3C /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A3C0D91D519ED000851E3C /* Player.swift */; };
+		B7A3C0DC1D519F2E00851E3C /* GameEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A3C0DB1D519F2E00851E3C /* GameEngine.swift */; };
+		B7A3C0DE1D51A9FC00851E3C /* CardSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A3C0DD1D51A9FC00851E3C /* CardSpec.swift */; };
+		B7A3C0E01D51AA7B00851E3C /* DeckSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A3C0DF1D51AA7B00851E3C /* DeckSpec.swift */; };
+		B7A3C0E21D51AB9600851E3C /* HandSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A3C0E11D51AB9600851E3C /* HandSpec.swift */; };
+		B7A3C0E41D51ADF600851E3C /* PlayerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A3C0E31D51ADF600851E3C /* PlayerSpec.swift */; };
+		B7A3C0E61D51AFBF00851E3C /* GameEngineSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A3C0E51D51AFBF00851E3C /* GameEngineSpec.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D2BCC2B1D3FFCC800B4CD52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D2BCC0E1D3FFCC800B4CD52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D2BCC151D3FFCC800B4CD52;
+			remoteInfo = EnumsFun;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		149EA297DE44E7D7B5DC7CA5 /* Pods-EnumsFunTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnumsFunTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EnumsFunTests/Pods-EnumsFunTests.release.xcconfig"; sourceTree = "<group>"; };
+		21F9F56CAA1502CB54215923 /* Pods-EnumsFunTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnumsFunTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EnumsFunTests/Pods-EnumsFunTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B42E220F296C6223C32FDF8 /* Pods_EnumsFunTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EnumsFunTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D2BCC161D3FFCC800B4CD52 /* EnumsFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnumsFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D2BCC191D3FFCC800B4CD52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7D2BCC1B1D3FFCC800B4CD52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7D2BCC1E1D3FFCC800B4CD52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D2BCC201D3FFCC800B4CD52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D2BCC231D3FFCC800B4CD52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7D2BCC251D3FFCC800B4CD52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D2BCC2A1D3FFCC800B4CD52 /* EnumsFunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnumsFunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D2BCC301D3FFCC800B4CD52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB4A3C705BC0293860E275C6 /* Pods-EnumsFun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnumsFun.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EnumsFun/Pods-EnumsFun.debug.xcconfig"; sourceTree = "<group>"; };
+		B7A3C0CF1D518C1B00851E3C /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		B7A3C0D11D518E4700851E3C /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		B7A3C0D31D518F3800851E3C /* ArraySpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArraySpec.swift; sourceTree = "<group>"; };
+		B7A3C0D51D5190F800851E3C /* Deck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		B7A3C0D71D519EA400851E3C /* Hand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hand.swift; sourceTree = "<group>"; };
+		B7A3C0D91D519ED000851E3C /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		B7A3C0DB1D519F2E00851E3C /* GameEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameEngine.swift; sourceTree = "<group>"; };
+		B7A3C0DD1D51A9FC00851E3C /* CardSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardSpec.swift; sourceTree = "<group>"; };
+		B7A3C0DF1D51AA7B00851E3C /* DeckSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeckSpec.swift; sourceTree = "<group>"; };
+		B7A3C0E11D51AB9600851E3C /* HandSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandSpec.swift; sourceTree = "<group>"; };
+		B7A3C0E31D51ADF600851E3C /* PlayerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerSpec.swift; sourceTree = "<group>"; };
+		B7A3C0E51D51AFBF00851E3C /* GameEngineSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameEngineSpec.swift; sourceTree = "<group>"; };
+		CD6BEB565F2453886FAE0A25 /* Pods_EnumsFun.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EnumsFun.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D21F1A0FB6121FAA72AF640F /* Pods-EnumsFun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnumsFun.release.xcconfig"; path = "Pods/Target Support Files/Pods-EnumsFun/Pods-EnumsFun.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D2BCC131D3FFCC800B4CD52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FA73C9C9B22092BE3B2D01A /* Pods_EnumsFun.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D2BCC271D3FFCC800B4CD52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81262DDF262A9C027926E44A /* Pods_EnumsFunTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09DAB701106545C21CBEA285 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD6BEB565F2453886FAE0A25 /* Pods_EnumsFun.framework */,
+				7B42E220F296C6223C32FDF8 /* Pods_EnumsFunTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D2BCC0D1D3FFCC800B4CD52 = {
+			isa = PBXGroup;
+			children = (
+				7D2BCC181D3FFCC800B4CD52 /* EnumsFun */,
+				7D2BCC2D1D3FFCC800B4CD52 /* EnumsFunTests */,
+				7D2BCC171D3FFCC800B4CD52 /* Products */,
+				A83FF1A49711A6A165DA4FB7 /* Pods */,
+				09DAB701106545C21CBEA285 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7D2BCC171D3FFCC800B4CD52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D2BCC161D3FFCC800B4CD52 /* EnumsFun.app */,
+				7D2BCC2A1D3FFCC800B4CD52 /* EnumsFunTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D2BCC181D3FFCC800B4CD52 /* EnumsFun */ = {
+			isa = PBXGroup;
+			children = (
+				7D2BCC191D3FFCC800B4CD52 /* AppDelegate.swift */,
+				7D2BCC1B1D3FFCC800B4CD52 /* ViewController.swift */,
+				B7A3C0CF1D518C1B00851E3C /* Card.swift */,
+				B7A3C0D51D5190F800851E3C /* Deck.swift */,
+				B7A3C0DB1D519F2E00851E3C /* GameEngine.swift */,
+				B7A3C0D71D519EA400851E3C /* Hand.swift */,
+				B7A3C0D91D519ED000851E3C /* Player.swift */,
+				B7A3C0D11D518E4700851E3C /* Array.swift */,
+				7D2BCC1D1D3FFCC800B4CD52 /* Main.storyboard */,
+				7D2BCC201D3FFCC800B4CD52 /* Assets.xcassets */,
+				7D2BCC221D3FFCC800B4CD52 /* LaunchScreen.storyboard */,
+				7D2BCC251D3FFCC800B4CD52 /* Info.plist */,
+			);
+			path = EnumsFun;
+			sourceTree = "<group>";
+		};
+		7D2BCC2D1D3FFCC800B4CD52 /* EnumsFunTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7A3C0D31D518F3800851E3C /* ArraySpec.swift */,
+				B7A3C0DD1D51A9FC00851E3C /* CardSpec.swift */,
+				B7A3C0DF1D51AA7B00851E3C /* DeckSpec.swift */,
+				B7A3C0E51D51AFBF00851E3C /* GameEngineSpec.swift */,
+				B7A3C0E11D51AB9600851E3C /* HandSpec.swift */,
+				B7A3C0E31D51ADF600851E3C /* PlayerSpec.swift */,
+				7D2BCC301D3FFCC800B4CD52 /* Info.plist */,
+			);
+			path = EnumsFunTests;
+			sourceTree = "<group>";
+		};
+		A83FF1A49711A6A165DA4FB7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB4A3C705BC0293860E275C6 /* Pods-EnumsFun.debug.xcconfig */,
+				D21F1A0FB6121FAA72AF640F /* Pods-EnumsFun.release.xcconfig */,
+				21F9F56CAA1502CB54215923 /* Pods-EnumsFunTests.debug.xcconfig */,
+				149EA297DE44E7D7B5DC7CA5 /* Pods-EnumsFunTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D2BCC151D3FFCC800B4CD52 /* EnumsFun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D2BCC331D3FFCC800B4CD52 /* Build configuration list for PBXNativeTarget "EnumsFun" */;
+			buildPhases = (
+				F0C5A13D972B0604602A0148 /* [CP] Check Pods Manifest.lock */,
+				7D2BCC121D3FFCC800B4CD52 /* Sources */,
+				7D2BCC131D3FFCC800B4CD52 /* Frameworks */,
+				7D2BCC141D3FFCC800B4CD52 /* Resources */,
+				10775D4146C7B0BE5CED1AFA /* [CP] Embed Pods Frameworks */,
+				E84E4C5CF9F08A794E817C26 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EnumsFun;
+			productName = EnumsFun;
+			productReference = 7D2BCC161D3FFCC800B4CD52 /* EnumsFun.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D2BCC291D3FFCC800B4CD52 /* EnumsFunTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D2BCC361D3FFCC800B4CD52 /* Build configuration list for PBXNativeTarget "EnumsFunTests" */;
+			buildPhases = (
+				2EC0478324AAB4E015910908 /* [CP] Check Pods Manifest.lock */,
+				7D2BCC261D3FFCC800B4CD52 /* Sources */,
+				7D2BCC271D3FFCC800B4CD52 /* Frameworks */,
+				7D2BCC281D3FFCC800B4CD52 /* Resources */,
+				87E8517C966F3A170FC45988 /* [CP] Embed Pods Frameworks */,
+				F11016230BBF7DDCB1E505CD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D2BCC2C1D3FFCC800B4CD52 /* PBXTargetDependency */,
+			);
+			name = EnumsFunTests;
+			productName = EnumsFunTests;
+			productReference = 7D2BCC2A1D3FFCC800B4CD52 /* EnumsFunTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D2BCC0E1D3FFCC800B4CD52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Gamesmith, LLC";
+				TargetAttributes = {
+					7D2BCC151D3FFCC800B4CD52 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+					};
+					7D2BCC291D3FFCC800B4CD52 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+						TestTargetID = 7D2BCC151D3FFCC800B4CD52;
+					};
+				};
+			};
+			buildConfigurationList = 7D2BCC111D3FFCC800B4CD52 /* Build configuration list for PBXProject "EnumsFun" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D2BCC0D1D3FFCC800B4CD52;
+			productRefGroup = 7D2BCC171D3FFCC800B4CD52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D2BCC151D3FFCC800B4CD52 /* EnumsFun */,
+				7D2BCC291D3FFCC800B4CD52 /* EnumsFunTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D2BCC141D3FFCC800B4CD52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D2BCC241D3FFCC800B4CD52 /* LaunchScreen.storyboard in Resources */,
+				7D2BCC211D3FFCC800B4CD52 /* Assets.xcassets in Resources */,
+				7D2BCC1F1D3FFCC800B4CD52 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D2BCC281D3FFCC800B4CD52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10775D4146C7B0BE5CED1AFA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EnumsFun/Pods-EnumsFun-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2EC0478324AAB4E015910908 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		87E8517C966F3A170FC45988 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EnumsFunTests/Pods-EnumsFunTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E84E4C5CF9F08A794E817C26 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EnumsFun/Pods-EnumsFun-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0C5A13D972B0604602A0148 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F11016230BBF7DDCB1E505CD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EnumsFunTests/Pods-EnumsFunTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D2BCC121D3FFCC800B4CD52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D2BCC1C1D3FFCC800B4CD52 /* ViewController.swift in Sources */,
+				B7A3C0D21D518E4700851E3C /* Array.swift in Sources */,
+				B7A3C0D81D519EA400851E3C /* Hand.swift in Sources */,
+				B7A3C0DC1D519F2E00851E3C /* GameEngine.swift in Sources */,
+				B7A3C0D61D5190F800851E3C /* Deck.swift in Sources */,
+				B7A3C0DA1D519ED000851E3C /* Player.swift in Sources */,
+				B7A3C0D01D518C1B00851E3C /* Card.swift in Sources */,
+				7D2BCC1A1D3FFCC800B4CD52 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D2BCC261D3FFCC800B4CD52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7A3C0E01D51AA7B00851E3C /* DeckSpec.swift in Sources */,
+				B7A3C0E41D51ADF600851E3C /* PlayerSpec.swift in Sources */,
+				B7A3C0E61D51AFBF00851E3C /* GameEngineSpec.swift in Sources */,
+				B7A3C0DE1D51A9FC00851E3C /* CardSpec.swift in Sources */,
+				B7A3C0D41D518F3800851E3C /* ArraySpec.swift in Sources */,
+				B7A3C0E21D51AB9600851E3C /* HandSpec.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D2BCC2C1D3FFCC800B4CD52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D2BCC151D3FFCC800B4CD52 /* EnumsFun */;
+			targetProxy = 7D2BCC2B1D3FFCC800B4CD52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7D2BCC1D1D3FFCC800B4CD52 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D2BCC1E1D3FFCC800B4CD52 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7D2BCC221D3FFCC800B4CD52 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D2BCC231D3FFCC800B4CD52 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D2BCC311D3FFCC800B4CD52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7D2BCC321D3FFCC800B4CD52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D2BCC341D3FFCC800B4CD52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB4A3C705BC0293860E275C6 /* Pods-EnumsFun.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EnumsFun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Gamesmith.Swift.EnumsFun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7D2BCC351D3FFCC800B4CD52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D21F1A0FB6121FAA72AF640F /* Pods-EnumsFun.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EnumsFun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Gamesmith.Swift.EnumsFun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7D2BCC371D3FFCC800B4CD52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21F9F56CAA1502CB54215923 /* Pods-EnumsFunTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = EnumsFunTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Gamesmith.Swift.EnumsFunTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnumsFun.app/EnumsFun";
+			};
+			name = Debug;
+		};
+		7D2BCC381D3FFCC800B4CD52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 149EA297DE44E7D7B5DC7CA5 /* Pods-EnumsFunTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = EnumsFunTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Gamesmith.Swift.EnumsFunTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnumsFun.app/EnumsFun";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D2BCC111D3FFCC800B4CD52 /* Build configuration list for PBXProject "EnumsFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D2BCC311D3FFCC800B4CD52 /* Debug */,
+				7D2BCC321D3FFCC800B4CD52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D2BCC331D3FFCC800B4CD52 /* Build configuration list for PBXNativeTarget "EnumsFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D2BCC341D3FFCC800B4CD52 /* Debug */,
+				7D2BCC351D3FFCC800B4CD52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D2BCC361D3FFCC800B4CD52 /* Build configuration list for PBXNativeTarget "EnumsFunTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D2BCC371D3FFCC800B4CD52 /* Debug */,
+				7D2BCC381D3FFCC800B4CD52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D2BCC0E1D3FFCC800B4CD52 /* Project object */;
+}
