@@ -16,6 +16,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var opponentScoreLabel: UILabel!
     @IBOutlet weak var flipCardButton: UIButton!
 
-    @IBAction func flipCard(sender: UIButton) {
+    @IBAction func flipCard(_ sender: UIButton) {
     }
 }

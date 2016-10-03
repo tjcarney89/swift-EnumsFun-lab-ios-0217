@@ -28,14 +28,14 @@ Raw values make it easy to create new enums from other values. Consider again th
 
 ```swift
 enum Rank: Int {
-    case Two = 2, Three, Four, Five, Six, Seven, Eight, Nine, Ten, Jack, Queen, King Ace
+    case two = 2, three, four, five, six, seven, eight, nine, ten, jack, queen, king, ace
 ```
 
 You can easily create a new `Rank` instance from any `Int` value. Here's how you can create one from `5`:
 
 ```swift
 let rank: Rank? = Rank(rawValue: 5)
-// rank == Rank.Five
+// rank == Rank.five
 ```
 
 In other words, the `Rank` enum (and all enums with associated raw values) have an initializer with a `rawValue` parameter.
@@ -69,7 +69,7 @@ Let's get started!
 
 First, open up `Card.swift` in Xcode's code editor. `Cards.swift` contains two enums, `Rank` and `Suit`, and a class, `Card`. Here's what you must do to finish implementing these enums and classes:
 
-1. Add a `String` property to `Rank` called `stringValue`. This should return a string representing the value of the card: the numbered value for numbered cards, or "J", "Q", "K", or "A" for face cards. (Recall that the raw values for `Jack`, `Queen`, `King`, and `Ace` are 11, 12, 13, and 14, respectively.)
+1. Add a `String` property to `Rank` called `stringValue`. This should return a string representing the value of the card: the numbered value for numbered cards, or "J", "Q", "K", or "A" for face cards. (Recall that the raw values for `jack`, `queen`, `king`, and `ace` are 11, 12, 13, and 14, respectively.)
 2. Add a property called `suit` of type `Suit` to the `Card` class.
 3. Add a property called `rank` of type `Rank` to the `Card` class.
 4. Add a _computed_ property called `description` of type `String` to `Card`. It should return a string representing the suit and rank of the card, in the format "&lt;rank&gt;&lt;suit&gt;".
@@ -80,7 +80,7 @@ First, open up `Card.swift` in Xcode's code editor. `Cards.swift` contains two e
 Next, open up `Deck.swift`. You'll find a class in this file called `Deck` that represents a deck of cards.
 
 1. Add a property called `cards` of type `[Card]` to `Deck`.
-2. Create a new initializer than creates a deck of playing cards. This should be an array of 52 `Card` instances of the appropriate rank and suit. (Hint: You can use a couple of for loops to do this -- remember how to create `Rank` and `Suit` enums from raw values!) Assign this to the `cards` property. Make sure the deck is shuffled! (Hint: You can call `shuffleInPlace()` on an `Array` to shuffle the contents.)
+2. Create a new initializer than creates a deck of playing cards. This should be an array of 52 `Card` instances of the appropriate rank and suit. (Hint: You can use a couple of for loops to do this -- remember how to create `Rank` and `Suit` enums from raw values!) Assign this to the `cards` property. Make sure the deck is shuffled! (Hint: You can call `shuffleInPlace()` on an `Array` to shuffle the contents. This method was provided to you.)
 3. Add a method called `split()`. This method should split the set of the cards in half and return a two-element tuple consisting of each half of the deck (i.e., the return type is `([Card], [Card])`. (Hint: An `Array` method called `split()` has been written for you in the `Array.swift` file.)
 
 ### `Hand.swift`
@@ -90,9 +90,9 @@ Next, open up `Hand.swift`. This file contains a class called `Hand` that repres
 1. Add a property called `cards` of type `[Card]` to `Hand`.
 2. Add a _computed_ property called `size` that returns the current size of the hand.
 3. Create an initializer that takes an array of `Card`s called `cards` as a parameter. This array should be assigned to the `cards` property.
-4. Create a method called `flip()`. This method should return an optiona `Card` (`Card?`). It should return the top card from the hand, or `nil` if the deck is empty. This card should also be _removed_ from the hand.
-5. Create a method called `giveCard(_:)`. This method should take one parameter, `card`, of type `Card`, and add it to the _bottom_ of the hand.
-6. Create a method called `loseCard(_:)`. This method should take one parameter, `card`, of type `Card`, and remove that card from the hand.
+4. Create a method called `flip()`. This method should return an optional `Card` (`Card?`). It should return the top card from the hand, or `nil` if the deck is empty. This card should also be _removed_ from the hand.
+5. Create a method called `give(card:)`. This method should take one parameter, `card`, of type `Card`, and add it to the _bottom_ of the hand.
+6. Create a method called `lose(card:)`. This method should take one parameter, `card`, of type `Card`, and remove that card from the hand.
 
 ### `Player.swift`
 
@@ -103,9 +103,9 @@ Next, open up `Player.swift`. This file contains a class called `Player` that re
 3. Create an initializer that takes two parameters: `name` of type `String` and `hand` of type `Hand`. This initializer should set the equivalent properties.
 4. Create a function called `hasCards()` that returns a `Bool` indicating if the player has cards left in their hand or not.
 5. Create a function called `flip()` that returns a `Card?`. If the player has cards, it should return the top card of their hand; otherwise, it should return `nil`.
-6. Implement `giveCard(_:)` and `loseCard(_:)` as described in `Hand.swift`, above. They should do the same thing.
+6. Implement `give(card:)` and `lose(card:)` as described in `Hand.swift`, above. They should do the same thing.
 
-(Hint: `flip()`, `giveCard(_:)`, and `loseCard(_:)` will probably make use of the same methods defined on the `Hand` class.)
+(Hint: `flip()`, `give(card:)`, and `lose(card:)` will probably make use of the same methods defined on the `Hand` class.)
 
 ### `GameEngine.swift`
 
@@ -116,7 +116,7 @@ Next, open up `GameEngine.swift`. There is a `GameEngine` class defined in this 
 3. Add a property called `deck` of type `Deck`.
 4. Create an initializer for `GameEngine` that takes two `Player` parameters called `player1` and `player2`, both of type `String`, representing the _names_ of the game's players. This initializer should create a deck of cards and split it in half, then create two `Player` instances and assign them to the appropriate property.
 5. Implement a method called `playOneTurn()` that returns a three-element tuple of type `(Player, Card?, Card?)`, representing the winning player of this turn, the card that `player1` flipped over, and the card that `player2` flipped over. This method should flip cards for each player. Remember, the player with the highest card wins!
-6. Implement a method called `awardCards(_:cards_)`. This method takes a `Player` parameter (called `player`) and a `[Card]` parameter (called `cards`) and gives `player` all the cards. (Hint: Don't forget about the `giveCard(_:)` method you implemented on the `Player` class.)
+6. Implement a method called `award(cards:to:)`. This methods first parameter is called `cards` of type [`Card`]. The second parameter should be called `player` of type `player`. It should give the `player` all of the `cards`. (Hint: Don't forget about the `give(card:)` method you implemented on the `Player` class.)
 7. Implement a method called `gameOver()` that returns `true` when the game is over. (The game is over when either player has run out of cards.)
 
 ### `ViewController.swift`

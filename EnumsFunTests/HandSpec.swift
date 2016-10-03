@@ -75,7 +75,7 @@ class HandSpec: QuickSpec {
             describe("giveCard") {
                 it("adds a card to the hand") {
                     expect(hand.size).to(equal(2))
-                    hand.giveCard(card1)
+                    hand.give(card: card1)
                     expect(hand.size).to(equal(3))
                 }
             }
@@ -83,7 +83,7 @@ class HandSpec: QuickSpec {
             describe("loseCard") {
                 it("takes a card from the hand") {
                     expect(hand.size).to(equal(2))
-                    hand.loseCard(card1)
+                    hand.lose(card: card1)
                     expect(hand.size).to(equal(1))
                 }
             }

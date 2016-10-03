@@ -73,14 +73,14 @@ class PlayerSpec: QuickSpec {
 
             describe("giveCard") {
                 it("adds a card to a player's hand") {
-                    player.giveCard(card1)
+                    player.give(card: card1)
                     expect(player.hand.size).to(equal(3))
                 }
             }
 
             describe("loseCard") {
                 it("takes a card from a player's hand") {
-                    player.loseCard(card1)
+                    player.lose(card: card1)
                     expect(player.hand.size).to(equal(1))
                 }
             }

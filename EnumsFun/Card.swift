@@ -13,7 +13,7 @@ enum Suit: String {
 }
 
 enum Rank: Int {
-    case Two = 2, Three, Four, Five, Six, Seven, Eight, Nine, Ten, Jack, Queen, King, Ace
+    case two = 2, three, four, five, six, seven, eight, nine, ten, jack, queen, king, ace
 }
 
 class Card {
