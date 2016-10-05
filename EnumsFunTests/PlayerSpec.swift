@@ -59,7 +59,7 @@ class PlayerSpec: QuickSpec {
 
             describe("flipCard") {
                 it("returns a card if the player has cards in their hand") {
-                    let card = player.flip()
+                    let card = player.flip() != nil
                     expect(card).to(beTruthy())
                 }
 
