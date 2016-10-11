@@ -69,7 +69,7 @@ Let's get started!
 
 First, open up `Card.swift` in Xcode's code editor. `Cards.swift` contains two enums, `Rank` and `Suit`, and a class, `Card`. Here's what you must do to finish implementing these enums and classes:
 
-1. Add a `String` property to `Rank` called `stringValue`. This should return a string representing the value of the card: the numbered value for numbered cards, or "J", "Q", "K", or "A" for face cards. (Recall that the raw values for `jack`, `queen`, `king`, and `ace` are 11, 12, 13, and 14, respectively.)
+1. Add a `String` property to `Rank` called `stringValue`. This should return a string representing the value of the card: the numbered value for numbered cards, or "J", "Q", "K", or "A" for face cards.
 2. Add a property called `suit` of type `Suit` to the `Card` class.
 3. Add a property called `rank` of type `Rank` to the `Card` class.
 4. Add a _computed_ property called `description` of type `String` to `Card`. It should return a string representing the suit and rank of the card, in the format "&lt;rank&gt;&lt;suit&gt;".
