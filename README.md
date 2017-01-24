@@ -80,7 +80,7 @@ First, open up `Card.swift` in Xcode's code editor. `Cards.swift` contains two e
 Next, open up `Deck.swift`. You'll find a class in this file called `Deck` that represents a deck of cards.
 
 1. Add a property called `cards` of type `[Card]` to `Deck`.
-2. Create a new initializer than creates a deck of playing cards. This should be an array of 52 `Card` instances of the appropriate rank and suit. (Hint: You can use a couple of for loops to do this -- remember how to create `Rank` and `Suit` enums from raw values!) Assign this to the `cards` property. Make sure the deck is shuffled! (Hint: You can call `shuffleInPlace()` on an `Array` to shuffle the contents. This method was provided to you.)
+2. Create a new initializer than creates a deck of playing cards. This should be an array of 52 `Card` instances of the appropriate rank and suit. (Hint: You can use a couple of for loops to do this -- remember how to create `Rank` and `Suit` enums from raw values!) Assign this to the `cards` property. Make sure the deck is shuffled! (Hint: You can call `shuffle()` on an `Array` to shuffle the contents. This method was provided to you.)
 3. Add a method called `split()`. This method should split the set of the cards in half and return a two-element tuple consisting of each half of the deck (i.e., the return type is `([Card], [Card])`. (Hint: An `Array` method called `split()` has been written for you in the `Array.swift` file.)
 
 ### `Hand.swift`
@@ -116,7 +116,7 @@ Next, open up `GameEngine.swift`. There is a `GameEngine` class defined in this 
 3. Add a property called `deck` of type `Deck`.
 4. Create an initializer for `GameEngine` that takes two `Player` parameters called `player1` and `player2`, both of type `String`, representing the _names_ of the game's players. This initializer should create a deck of cards and split it in half, then create two `Player` instances and assign them to the appropriate property.
 5. Implement a method called `playOneTurn()` that returns a three-element tuple of type `(Player, Card?, Card?)`, representing the winning player of this turn, the card that `player1` flipped over, and the card that `player2` flipped over. This method should flip cards for each player. Remember, the player with the highest card wins!
-6. Implement a method called `award(cards:to:)`. This methods first parameter is called `cards` of type [`Card`]. The second parameter should be called `player` of type `player`. It should give the `player` all of the `cards`. (Hint: Don't forget about the `give(card:)` method you implemented on the `Player` class.)
+6. Implement a method called `award(cards:to:)`. This methods first parameter is called `cards` of type [`Card`]. The second parameter should be called `player` of type `Player`. It should give the `player` all of the `cards`. (Hint: Don't forget about the `give(card:)` method you implemented on the `Player` class.)
 7. Implement a method called `gameOver()` that returns `true` when the game is over. (The game is over when either player has run out of cards.)
 
 ### `ViewController.swift`
@@ -128,3 +128,5 @@ Finally, you'll have to implement the `ViewController` class. The IB outlets and
 If you found this lab easy, then try modifying your code to implement tie breakers. It's harder than it looks!
 
 <a href='https://learn.co/lessons/EnumsLab' data-visibility='hidden'>View this lesson on Learn.co</a>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/swift-EnumsFun-lab'>Enums War Lab</a> on Learn.co and start learning to code for free.</p>
