@@ -1,8 +1,8 @@
 #import "QuickSpec.h"
 #import "QuickConfiguration.h"
-#import "NSString+QCKSelectorName.h"
 #import "World.h"
 #import <objc/runtime.h>
+#import <Quick/Quick-Swift.h>
 
 static QuickSpec *currentSpec = nil;
 
@@ -108,18 +108,10 @@ const void * const QCKExampleKey = &QCKExampleKey;
         currentSpec = self;
         [example run];
     });
-    NSCharacterSet *characterSet = [NSCharacterSet alphanumericCharacterSet];
-    NSMutableString *sanitizedFileName = [NSMutableString string];
-    for (NSUInteger i = 0; i < example.callsite.file.length; i++) {
-        unichar ch = [example.callsite.file characterAtIndex:i];
-        if ([characterSet characterIsMember:ch]) {
-            [sanitizedFileName appendFormat:@"%c", ch];
-        }
-    }
 
-    const char *types = [[NSString stringWithFormat:@"%s%s%s", @encode(id), @encode(id), @encode(SEL)] UTF8String];
+    const char *types = [[NSString stringWithFormat:@"%s%s%s", @encode(void), @encode(id), @encode(SEL)] UTF8String];
     
-    NSString *originalName = example.name.qck_selectorName;
+    NSString *originalName = example.name.qck_c99ExtendedIdentifier;
     NSString *selectorName = originalName;
     NSUInteger i = 2;
     

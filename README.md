@@ -75,6 +75,11 @@ First, open up `Card.swift` in Xcode's code editor. `Cards.swift` contains two e
 4. Add a _computed_ property called `description` of type `String` to `Card`. It should return a string representing the suit and rank of the card, in the format "&lt;rank&gt;&lt;suit&gt;".
 5. Create an initializer for `Card` that accepts both a rank and a suit and sets the appropriate properties. These parameters should be called `rank` and `suit`.
 
+`Card.swift` Solution Video:
+
+[![](http://img.youtube.com/vi/USmgRiEVycY/0.jpg)](http://www.youtube.com/watch?v=USmgRiEVycY "Enums Lab Card")
+
+
 ### `Deck.swift`
 
 Next, open up `Deck.swift`. You'll find a class in this file called `Deck` that represents a deck of cards.
@@ -82,6 +87,11 @@ Next, open up `Deck.swift`. You'll find a class in this file called `Deck` that 
 1. Add a property called `cards` of type `[Card]` to `Deck`.
 2. Create a new initializer than creates a deck of playing cards. This should be an array of 52 `Card` instances of the appropriate rank and suit. (Hint: You can use a couple of for loops to do this -- remember how to create `Rank` and `Suit` enums from raw values!) Assign this to the `cards` property. Make sure the deck is shuffled! (Hint: You can call `shuffle()` on an `Array` to shuffle the contents. This method was provided to you.)
 3. Add a method called `split()`. This method should split the set of the cards in half and return a two-element tuple consisting of each half of the deck (i.e., the return type is `([Card], [Card])`. (Hint: An `Array` method called `split()` has been written for you in the `Array.swift` file.)
+
+`Deck.swift` Solution Video:
+
+[![](http://img.youtube.com/vi/kFCtpg1yxao/0.jpg)](http://www.youtube.com/watch?v=kFCtpg1yxao "Enums Lab Deck")
+
 
 ### `Hand.swift`
 
@@ -93,6 +103,12 @@ Next, open up `Hand.swift`. This file contains a class called `Hand` that repres
 4. Create a method called `flip()`. This method should return an optional `Card` (`Card?`). It should return the top card from the hand, or `nil` if the deck is empty. This card should also be _removed_ from the hand.
 5. Create a method called `give(card:)`. This method should take one parameter, `card`, of type `Card`, and add it to the _bottom_ of the hand.
 6. Create a method called `lose(card:)`. This method should take one parameter, `card`, of type `Card`, and remove that card from the hand.
+
+`Hand.swift` Solution Video:
+
+[![](http://img.youtube.com/vi/RvTGxnm6quo/0.jpg)](http://www.youtube.com/watch?v=RvTGxnm6quo "Enums Lab Hand")
+
+
 
 ### `Player.swift`
 
@@ -119,9 +135,18 @@ Next, open up `GameEngine.swift`. There is a `GameEngine` class defined in this 
 6. Implement a method called `award(cards:to:)`. This methods first parameter is called `cards` of type [`Card`]. The second parameter should be called `player` of type `Player`. It should give the `player` all of the `cards`. (Hint: Don't forget about the `give(card:)` method you implemented on the `Player` class.)
 7. Implement a method called `gameOver()` that returns `true` when the game is over. (The game is over when either player has run out of cards.)
 
+`Player.swift` and `GameEngine.swift` Solution Video:
+
+[![](http://img.youtube.com/vi/8ujIjjxWTYc/0.jpg)](http://www.youtube.com/watch?v=8ujIjjxWTYc "Enums Lab Player and GameEngine")
+
 ### `ViewController.swift`
 
 Finally, you'll have to implement the `ViewController` class. The IB outlets and actions have already been set up for you. The `flipCard(_:)` action should play one turn of War and update all the labels on the screen with the flipped cards, as well as the winner and loser of the round. It should also keep a running tally of the total number of cards left in each player's deck. The exact implementation of this class is open to you, but you should make use of the IB outlets and actions that have already been created.
+
+`ViewController.swift` Solution Video:
+
+[![](http://img.youtube.com/vi/CpqbHgAUDgQ/0.jpg)](http://www.youtube.com/watch?v=CpqbHgAUDgQ "Enums Lab VC")
+
 
 ## Extra Credit
 
