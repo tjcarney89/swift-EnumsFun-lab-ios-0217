@@ -16,16 +16,16 @@
 		81262DDF262A9C027926E44A /* Pods_EnumsFunTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B42E220F296C6223C32FDF8 /* Pods_EnumsFunTests.framework */; };
 		B7A3C0D01D518C1B00851E3C /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A3C0CF1D518C1B00851E3C /* Card.swift */; };
 		B7A3C0D21D518E4700851E3C /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A3C0D11D518E4700851E3C /* Array.swift */; };
-		B7A3C0D41D518F3800851E3C /* ArraySpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A3C0D31D518F3800851E3C /* ArraySpec.swift */; };
 		B7A3C0D61D5190F800851E3C /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A3C0D51D5190F800851E3C /* Deck.swift */; };
 		B7A3C0D81D519EA400851E3C /* Hand.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A3C0D71D519EA400851E3C /* Hand.swift */; };
 		B7A3C0DA1D519ED000851E3C /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A3C0D91D519ED000851E3C /* Player.swift */; };
 		B7A3C0DC1D519F2E00851E3C /* GameEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A3C0DB1D519F2E00851E3C /* GameEngine.swift */; };
 		B7A3C0DE1D51A9FC00851E3C /* CardSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A3C0DD1D51A9FC00851E3C /* CardSpec.swift */; };
-		B7A3C0E01D51AA7B00851E3C /* DeckSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A3C0DF1D51AA7B00851E3C /* DeckSpec.swift */; };
-		B7A3C0E21D51AB9600851E3C /* HandSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A3C0E11D51AB9600851E3C /* HandSpec.swift */; };
-		B7A3C0E41D51ADF600851E3C /* PlayerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A3C0E31D51ADF600851E3C /* PlayerSpec.swift */; };
-		B7A3C0E61D51AFBF00851E3C /* GameEngineSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A3C0E51D51AFBF00851E3C /* GameEngineSpec.swift */; };
+		F0BA4DFD1E4CD689009610BC /* ArraySpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A3C0D31D518F3800851E3C /* ArraySpec.swift */; };
+		F0BA4DFE1E4CD68E009610BC /* DeckSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A3C0DF1D51AA7B00851E3C /* DeckSpec.swift */; };
+		F0BA4DFF1E4CD822009610BC /* HandSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A3C0E11D51AB9600851E3C /* HandSpec.swift */; };
+		F0BA4E001E4CE531009610BC /* PlayerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A3C0E31D51ADF600851E3C /* PlayerSpec.swift */; };
+		F0BA4E011E4CEC6C009610BC /* GameEngineSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A3C0E51D51AFBF00851E3C /* GameEngineSpec.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -378,12 +378,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7A3C0E01D51AA7B00851E3C /* DeckSpec.swift in Sources */,
-				B7A3C0E41D51ADF600851E3C /* PlayerSpec.swift in Sources */,
-				B7A3C0E61D51AFBF00851E3C /* GameEngineSpec.swift in Sources */,
+				F0BA4DFE1E4CD68E009610BC /* DeckSpec.swift in Sources */,
+				F0BA4E001E4CE531009610BC /* PlayerSpec.swift in Sources */,
+				F0BA4E011E4CEC6C009610BC /* GameEngineSpec.swift in Sources */,
+				F0BA4DFD1E4CD689009610BC /* ArraySpec.swift in Sources */,
 				B7A3C0DE1D51A9FC00851E3C /* CardSpec.swift in Sources */,
-				B7A3C0D41D518F3800851E3C /* ArraySpec.swift in Sources */,
-				B7A3C0E21D51AB9600851E3C /* HandSpec.swift in Sources */,
+				F0BA4DFF1E4CD822009610BC /* HandSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
