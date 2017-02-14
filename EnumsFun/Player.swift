@@ -16,16 +16,15 @@ class Player {
         self.hand = hand
     }
     
-    func hasCards() -> Bool {
-        if hand.cards.isEmpty {
-            return false
-        } else {
-            return true
-        }
+    var hasCards: Bool {
+        
+        return !hand.cards.isEmpty
     }
     
+   
+    
     func flip() -> Card? {
-        if hasCards() == true {
+        if hasCards == true {
             let flippedCard = hand.cards.removeFirst()
             return flippedCard
         } else {
